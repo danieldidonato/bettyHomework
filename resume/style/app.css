@@ -1,0 +1,112 @@
+html {
+	padding:15px;
+   	border:5px solid #7F7C7C;
+   	background-color:#4D4D4D;
+   	max-width: 1000px;
+   	max-height: none;
+   	margin:auto;
+}
+
+.gohan {
+	background-color: #4D4D4D;
+	border-style: #7F7C7C;
+
+}
+
+.topnav {
+	list-style: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.topnav-link {
+	display: inline-block;
+	border-right: 1px solid #7F7C7C;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.active{
+	color: white;
+	font-weight: bolder;
+
+}
+
+.topnav-noborder {
+	border-right: none;
+	padding-left: 10px;
+	text-decoration: underline;	
+}
+
+.goku {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-size: 40px;
+	padding-left: 15px;
+}
+
+h1 {
+	color:white;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+h2 {
+	color: #7F7C7C;
+}
+
+p {
+	display: block;
+	color: white;
+	font-size: 23px;
+	font-family: helvetica;
+}
+
+li {
+	color: white;
+	font-size: 23px;
+	font-family: helvetica;
+	padding-bottom: 15px;
+	list-style-type: square;
+	
+}
+
+span {
+	font-size: 20px;
+	color: #7F7C7C;
+}
+
+.bottomnav {
+	list-style: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.bottomnav-link {
+	display: inline-block;
+	border-right: 1px solid #7F7C7C;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	color:#00ff99;
+}
+
+.bottomnav-noborder {
+	border-right: none;
+	padding-left: 10px;	
+}
+
+
+.topnav-link:not(.active):hover {
+	text-decoration: underline;
+}
+
+.bottomnav-link:hover {
+	text-decoration: underline;
+}
