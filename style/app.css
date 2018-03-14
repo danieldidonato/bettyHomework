@@ -62,3 +62,22 @@ p {
 	
 }
 
+.sectiontitles{
+	color:white;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+li {
+	color: white;
+	font-size: 23px;
+	font-family: helvetica;
+	padding-bottom: 15px;
+	list-style-type: square;
+	
+}
+
+span {
+	font-size: 20px;
+	color: #777;
+}
